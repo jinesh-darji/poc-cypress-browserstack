@@ -1,0 +1,26 @@
+{
+  "name": "metamask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "env-cmd -f .env npx synpress run -cf synpress.json --config supportFile='support/index.js'",
+    "test:watch": "env-cmd -f .env npx synpress open -cf synpress.json",
+    "lint": "eslint --ext .js,.ts ."
+  },
+  "author": "Jinesh Darji",
+  "license": "ISC",
+  "devDependencies": {
+    "@synthetixio/synpress": "^3.7.1",
+    "@testing-library/cypress": "^9.0.0",
+    "browserstack-cypress-cli": "^1.22.1",
+    "chai": "^4.3.7",
+    "cypress": "^12.14.0",
+    "cypress-xpath": "^2.0.1",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-cypress": "^2.13.3",
+    "eslint-plugin-testing-library": "^5.11.0",
+    "mocha": "^10.2.0"
+  }
+}

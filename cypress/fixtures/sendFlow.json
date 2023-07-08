@@ -1,0 +1,16 @@
+{
+  "receiver_address": "0x71Bec2309cC6BDD5F1D73474688A6154c28Db4B5",
+  "receiver_address_invalid": "0x71Bec23C9cC6BDD5F1D83474688A6A54c18Db4B9",
+  "receiver_address_same": "0x666E17ad27fB620D7519477f3b33d809775d65Fe",
+  "you_send_matic": "0.00001",
+  "you_send_bnb": "0.00000001",
+  "you_send_xdai": "0.00001",
+  "you_send_optimism": "0.000000001",
+  "you_send_arbitrum": "0.000000001",
+  "you_send_usdc": "0.00001",
+  "you_send_usdt": "0.00001",
+  "you_send_xdai_exceeded": "10000000",
+  "you_send_xdai_zero": "0",
+  "you_send_xdai_updated": "0.00002",
+  "you_send_usdc_updated": "0.00002"
+}

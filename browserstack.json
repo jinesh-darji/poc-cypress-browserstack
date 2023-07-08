@@ -1,0 +1,38 @@
+{
+  "auth": {
+    "username": "jineshdarji_0WzBLa",
+    "access_key": "D9qU8wmrx3YA2Dyyrkxr"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest", "latest-1"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "cypress.config.js",
+    "project_name": "Builder",
+    "build_name": "1.0",
+    "spec_timeout": 30,
+    "exclude": [],
+    "parallels": "1",
+    "npm_dependencies": {
+      "@synthetixio/synpress": "^3.7.1",
+      "browserstack-cypress-cli": "^1.22.1",
+      "chai": "^4.3.7",
+      "cypress": "^12.14.0",
+      "cypress-xpath": "^2.0.1",
+      "mocha": "^10.2.0"
+    },
+    "package_config_options": {},
+    "headless": true
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}
